@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">ThinkQuote</string>
-    <string name="quote_sacrifice_present">\"You must sacrifice the present for a better future.\"</string>
-    <string name="bear_responsibility">\"Bear as much responsibility as you possibly can.\"</string>
-    <string name="be_dangerous">\"Be as dangerous as you can, carefully. Be as dangerous as you
+    <string name="quote1">\"You must sacrifice the present for a better future.\"</string>
+    <string name="quote2">\"Bear as much responsibility as you possibly can.\"</string>
+    <string name="quote3">\"Be as dangerous as you can, carefully. Be as dangerous as you
         possibly can and still be civilized.\"</string>
     <string name="quote4">\"Motivation gets you going. Good habits keep you going.\" -Jim Ryan</string>
     <string name="quote5">\"Familiarity breeds contempt.\" -Aesop (620 BC to 564 BC)</string>

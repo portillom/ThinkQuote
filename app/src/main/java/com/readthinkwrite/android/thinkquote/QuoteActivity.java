@@ -21,10 +21,22 @@ public class QuoteActivity extends AppCompatActivity {
     private int mCurrentIndex = 0;
 
     private Quote[] mQuoteBank = new Quote[]{
-            new Quote(R.string.quote_sacrifice_present),
-            new Quote(R.string.bear_responsibility),
-            new Quote(R.string.be_dangerous),
-            new Quote(R.string.quote_4)
+            new Quote(R.string.quote1),
+            new Quote(R.string.quote2),
+            new Quote(R.string.quote3),
+            new Quote(R.string.quote4),
+            new Quote(R.string.quote5),
+            new Quote(R.string.quote6),
+            new Quote(R.string.quote7),
+            new Quote(R.string.quote8),
+            new Quote(R.string.quote9),
+            new Quote(R.string.quote10),
+            new Quote(R.string.quote11),
+            new Quote(R.string.quote12),
+            new Quote(R.string.quote13),
+            new Quote(R.string.quote14),
+            new Quote(R.string.quote15),
+            new Quote(R.string.quote16)
     };
 
     @Override
