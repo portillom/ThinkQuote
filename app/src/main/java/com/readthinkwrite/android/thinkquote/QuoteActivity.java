@@ -5,14 +5,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.util.Log;
 import android.widget.TextView;
-import android.widget.Button;
 import android.widget.ImageButton;
+
+import java.util.Random;
 
 public class QuoteActivity extends AppCompatActivity {
 
     private static final String TAG = "ThinkQuiz";
     private static final String KEY_INDEX = "index";
-    private static final String KEY_QUOTE_COUNTER = "quote_counter";
 
     private TextView mQuoteTextView;
     private ImageButton mNextButton;
@@ -23,7 +23,8 @@ public class QuoteActivity extends AppCompatActivity {
     private Quote[] mQuoteBank = new Quote[]{
             new Quote(R.string.quote_sacrifice_present),
             new Quote(R.string.bear_responsibility),
-            new Quote(R.string.be_dangerous)
+            new Quote(R.string.be_dangerous),
+            new Quote(R.string.quote_4)
     };
 
     @Override
@@ -36,6 +37,7 @@ public class QuoteActivity extends AppCompatActivity {
         }
 
         mQuoteTextView = (TextView) findViewById(R.id.quote_text_view);
+        shuffleQuoteOrder(mQuoteBank);
 
         mPrevButton = (ImageButton) findViewById(R.id.prev_button);
         mPrevButton.setOnClickListener(new View.OnClickListener() {
@@ -73,6 +75,20 @@ public class QuoteActivity extends AppCompatActivity {
         int quote = mQuoteBank[mCurrentIndex].getTextResId();
         mQuoteTextView.setText(quote);
         setButton();
+    }
+
+    //The Fisher-Yates shuffle
+    private void shuffleQuoteOrder(Quote[] mQuoteBank){
+        int index;
+        Quote temp;
+        Random random = new Random();
+        for(int i = mQuoteBank.length -1; i > 0; i--){
+            index = random.nextInt(i+1);
+            temp = mQuoteBank[index];
+            mQuoteBank[index] = mQuoteBank[i];
+            mQuoteBank[i] = temp;
+        }
+
     }
 
     private void setButton(){
