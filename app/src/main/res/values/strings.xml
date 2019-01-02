@@ -2,8 +2,28 @@
     <string name="app_name">ThinkQuote</string>
     <string name="quote_sacrifice_present">\"You must sacrifice the present for a better future.\"</string>
     <string name="bear_responsibility">\"Bear as much responsibility as you possibly can.\"</string>
-    <string name="be_dangerous">\"Be as dangerous as you can, carefully. Be as dangerous as you possibly can and still be civilized.\"</string>
-    <string name="quote_4">\"Motivation gets you going. Good habits keep you going.\" -Jim Ryan</string>
+    <string name="be_dangerous">\"Be as dangerous as you can, carefully. Be as dangerous as you
+        possibly can and still be civilized.\"</string>
+    <string name="quote4">\"Motivation gets you going. Good habits keep you going.\" -Jim Ryan</string>
+    <string name="quote5">\"Familiarity breeds contempt.\" -Aesop (620 BC to 564 BC)</string>
+    <string name="quote6">\"A liar will not be believed, even when they speak the truth.\" -Aesop
+        (620 BC to 564 BC)</string>
+    <string name="quote7">\"A crust eaten in peace is better than a banquet partaken in anxiety.\"
+        -Aesop</string>
+    <string name="quote8">\"Every truth has two sides; it is as well to look at both, before we
+        commit ourselves to either.\" - Aesop</string>
+    <string name="quote9">\"Any excuse will serve a tyrant.\" -Aesop</string>
+    <string name="quote10">\"We would often be sorry if our wishes were gratified.\" - Aesop</string>
+    <string name="quote11">\"After all is said and done.\" -Aesop</string>
+    <string name="quote12">\"The little reed, bending to the force of the wind, soon stood upright
+        again when the storm had passed.\" -Aesop</string>
+    <string name="quote13">\"The man who can keep a secret may be wise, but he is not half as wise
+        as the man with no secrets to keep.\" -Edgar Watson Howe</string>
+    <string name="quote14">\"Three things can not stay hidden: the sun, the moon, The Truth.\" -Buddha</string>
+    <string name="quote15">\"If we could read the secret history of our enemies, we should find in
+        each man\'s life sorrow and suffering enough to disarm all hostility.\" -Henry Wadsworth
+        Longfellow</string>
+    <string name="quote16">\"Man is not what he thinks he is, he is what he hides.\" -Andr\u00E9 Malraux</string>
     <string name="next_button">next_button</string>
     <string name="prev_button">prev_button</string>
 </resources>

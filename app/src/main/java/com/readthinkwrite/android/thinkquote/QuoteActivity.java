@@ -77,7 +77,7 @@ public class QuoteActivity extends AppCompatActivity {
         setButton();
     }
 
-    //The Fisher-Yates shuffle bwfjk
+    //The Fisher-Yates shuffle
     private void shuffleQuoteOrder(Quote[] mQuoteBank){
         int index;
         Quote temp;
