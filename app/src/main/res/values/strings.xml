@@ -14,7 +14,7 @@
         commit ourselves to either.\" - Aesop</string>
     <string name="quote9">\"Any excuse will serve a tyrant.\" -Aesop</string>
     <string name="quote10">\"We would often be sorry if our wishes were gratified.\" - Aesop</string>
-    <string name="quote11">\"After all is said and done.\" -Aesop</string>
+    <string name="quote11">\"After all is said and done. More is said and done\" -Aesop</string>
     <string name="quote12">\"The little reed, bending to the force of the wind, soon stood upright
         again when the storm had passed.\" -Aesop</string>
     <string name="quote13">\"The man who can keep a secret may be wise, but he is not half as wise
@@ -24,6 +24,8 @@
         each man\'s life sorrow and suffering enough to disarm all hostility.\" -Henry Wadsworth
         Longfellow</string>
     <string name="quote16">\"Man is not what he thinks he is, he is what he hides.\" -Andr\u00E9 Malraux</string>
+    <string name="quote17">\"Work from your calendar. Not your To-do list. 41\% of items on the
+        To-do list don\'t get done.\"</string>
     <string name="next_button">next_button</string>
     <string name="prev_button">prev_button</string>
 </resources>

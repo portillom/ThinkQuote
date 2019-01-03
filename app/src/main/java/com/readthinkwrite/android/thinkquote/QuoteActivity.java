@@ -36,7 +36,8 @@ public class QuoteActivity extends AppCompatActivity {
             new Quote(R.string.quote13),
             new Quote(R.string.quote14),
             new Quote(R.string.quote15),
-            new Quote(R.string.quote16)
+            new Quote(R.string.quote16),
+            new Quote(R.string.quote17)
     };
 
     @Override
